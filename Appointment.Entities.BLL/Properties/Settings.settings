@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Appointment.Entities.BLL.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AppointmentConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=SAFWAT\SAFWAT;Initial Catalog=Appointment;User ID=sa;Password=p@ssw0rd&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=SAFWAT\SAFWAT;Initial Catalog=Appointment;User ID=sa;Password=p@ssw0rd</Value>
+    </Setting>
+    <Setting Name="AppointmentConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=SAFWAT\SAFWAT;Initial Catalog=Appointment;User ID=sa;Password=p@ssw0rd&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=SAFWAT\SAFWAT;Initial Catalog=Appointment;User ID=sa;Password=p@ssw0rd</Value>
+    </Setting>
+    <Setting Name="AppointmentConnectionString2" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=SAFWAT\SAFWAT;Initial Catalog=Appointment;User ID=sa&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=SAFWAT\SAFWAT;Initial Catalog=Appointment;User ID=sa</Value>
+    </Setting>
+    <Setting Name="Appointment_Haad_Webservices" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://shafafiya.haad.ae/v2/webservices.asmx</Value>
+    </Setting>
+    <Setting Name="Appointment_AppointmentService1_FeesList" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:56787/Invoices/FeesList.asmx</Value>
+    </Setting>
+    <Setting Name="UserID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="DoctorID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="CinicID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="BranchID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

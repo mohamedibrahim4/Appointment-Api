@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1FEB337A-D5CC-4A17-B134-580C16AA5630}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Appointment.Entities.BLL</RootNamespace>
+    <AssemblyName>Appointment.Entities.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApiClasses\DataDirectory.cs" />
+    <Compile Include="ApiClasses\GeneralFunction.cs" />
+    <Compile Include="ApiClasses\HeaderData.cs" />
+    <Compile Include="ApiClasses\KeyValuePairEN.cs" />
+    <Compile Include="Classes\ClsApiSetting.cs" />
+    <Compile Include="Classes\ClsDoctorCalenderBase.cs" />
+    <Compile Include="Classes\ClsDoctorCalenderByMobile.cs" />
+    <Compile Include="Classes\ClsDoctorCalenderByPatientID.cs" />
+    <Compile Include="Classes\ClsDoctorCalenerCancelObj.cs" />
+    <Compile Include="Classes\ClsDoctorCalenerChangeStatusObj.cs" />
+    <Compile Include="ApiClasses\KeyTwoValuePair.cs" />
+    <Compile Include="ApiClasses\KeykeyPair.cs" />
+    <Compile Include="ApiClasses\KeyValuePair.cs" />
+    <Compile Include="Classes\ClsApiAppointment.cs" />
+    <Compile Include="Classes\ClsApiAttachment.cs" />
+    <Compile Include="Classes\ClsApiDoctorAttachment.cs" />
+    <Compile Include="Classes\ClsApiDrugInstruction.cs" />
+    <Compile Include="Classes\ClsApiDoctorAttachmentTypes.cs" />
+    <Compile Include="Classes\ClsApiDrugRoute.cs" />
+    <Compile Include="Classes\ClsApiDrugUnit.cs" />
+    <Compile Include="Classes\ClsApiClinicCenterLogo.cs" />
+    <Compile Include="Classes\ClsApiGetAppPatientLabs.cs" />
+    <Compile Include="Classes\ClsApiGetAppPatientDrugs.cs" />
+    <Compile Include="Classes\ClsApiLookUp.cs" />
+    <Compile Include="Classes\ClsApiPatientClaimFormDetail.cs" />
+    <Compile Include="Classes\ClsApiPatientLabRequests.cs" />
+    <Compile Include="Classes\ClsApiPatients.cs" />
+    <Compile Include="Classes\ClsApiUsers.cs" />
+    <Compile Include="Classes\ClsApiPatientDrugs.cs" />
+    <Compile Include="Classes\ClsClinics.cs" />
+    <Compile Include="Classes\ClsDoctorCalender.cs" />
+    <Compile Include="Classes\ClsDoctorNonWorkingTime.cs" />
+    <Compile Include="Classes\ClsDoctors.cs" />
+    <Compile Include="Classes\ClsAppointmentReasons.cs" />
+    <Compile Include="Classes\ClsHowToKnow.cs" />
+    <Compile Include="Classes\ClsRooms.cs" />
+    <Compile Include="Classes\ClsSex.cs" />
+    <Compile Include="Classes\ClsVisitStatus.cs" />
+    <Compile Include="Classes\ClsWaitingPatient.cs" />
+    <Compile Include="Classes\ErrorResponse.cs" />
+    <Compile Include="Classes\MobUsers.cs" />
+    <Compile Include="Classes\ValidationError.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Appointment.Entities.DAL\Appointment.Entities.DAL\Appointment.Entities.DAL.csproj">
+      <Project>{38c70bd0-9a49-4139-bb74-a3e65bfa4294}</Project>
+      <Name>Appointment.Entities.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,6 @@
+D:\AppointmentApi\Appointment.Entities.DAL\Appointment.Entities.DAL\bin\Release\Appointment.Entities.DAL.dll
+D:\AppointmentApi\Appointment.Entities.DAL\Appointment.Entities.DAL\bin\Release\Appointment.Entities.DAL.pdb
+D:\AppointmentApi\Appointment.Entities.DAL\Appointment.Entities.DAL\obj\Release\Appointment.Entities.DAL.csprojAssemblyReference.cache
+D:\AppointmentApi\Appointment.Entities.DAL\Appointment.Entities.DAL\obj\Release\Appointment.Entities.DAL.csproj.CoreCompileInputs.cache
+D:\AppointmentApi\Appointment.Entities.DAL\Appointment.Entities.DAL\obj\Release\Appointment.Entities.DAL.dll
+D:\AppointmentApi\Appointment.Entities.DAL\Appointment.Entities.DAL\obj\Release\Appointment.Entities.DAL.pdb

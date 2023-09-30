@@ -1,0 +1,10 @@
+D:\AppointmentApi\Appointment.Entities.BLL\bin\Release\Appointment.Entities.BLL.dll
+D:\AppointmentApi\Appointment.Entities.BLL\bin\Release\Appointment.Entities.BLL.pdb
+D:\AppointmentApi\Appointment.Entities.BLL\bin\Release\Appointment.Entities.DAL.dll
+D:\AppointmentApi\Appointment.Entities.BLL\bin\Release\Appointment.Entities.DAL.pdb
+D:\AppointmentApi\Appointment.Entities.BLL\obj\Release\Appointment.Entities.BLL.csprojAssemblyReference.cache
+D:\AppointmentApi\Appointment.Entities.BLL\obj\Release\Appointment.Entities.BLL.csproj.CoreCompileInputs.cache
+D:\AppointmentApi\Appointment.Entities.BLL\obj\Release\Appointment.Entities.BLL.csproj.CopyComplete
+D:\AppointmentApi\Appointment.Entities.BLL\obj\Release\Appointment.Entities.BLL.dll
+D:\AppointmentApi\Appointment.Entities.BLL\obj\Release\Appointment.Entities.BLL.pdb
+D:\AppointmentApi\Appointment.Entities.BLL\bin\Release\Appointment.Entities.BLL.dll.config
